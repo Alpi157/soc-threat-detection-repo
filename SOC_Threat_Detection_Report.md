@@ -89,9 +89,13 @@ This project demonstrates an end-to-end pipeline — collection → detection �
 ## 6. Lessons Learned
 
  **Field extraction is critical** custom regex for Apache (status, clientip, uri_path) was mandatory.
+ 
  **Sysmon limitations** it logs only successful TCP handshakes; host-firewall logs or Zeek are better for SYN-scan detection.
+ 
  **Dashboards tell the story**  one concise panel per attack chain impresses stakeholders more than raw logs.
+ 
  **Automation first**  quick alerts with "Add to Triggered Alerts" proved effective for the lab; extendable to email/SOAR.
+ 
  **Resource discipline**  Splunk free 500 MB/day is sufficient if you prune noisy data (e.g., drop Windows Application logs).
 
 ---
@@ -99,8 +103,11 @@ This project demonstrates an end-to-end pipeline — collection → detection �
 ## 7. Next Steps / Future Work
 
  Deploy Zeek for network-level scan detection.
+ 
  Add mod_security CRS rules and verify alert efficacy in Splunk.
+ 
  Push dashboards to Splunk Cloud trial to demo via public URL.
+ 
  Integrate SOAR action (e.g., automatic firewall block via Python script).
 
 ---
