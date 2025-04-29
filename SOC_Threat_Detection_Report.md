@@ -12,7 +12,7 @@ This project demonstrates an end-to-end pipeline — collection → detection �
 
 - Set up a mini-SOC on commodity hardware / VirtualBox.
 - Generate realistic attacks (brute-force, web enumeration, data exfiltration).
-- Build dashboards and alerts that demonstrate analyst skills required for roles such as Cyber Security Analyst at RBC.
+- Build dashboards and alerts that demonstrate analyst skills required for roles such as Cyber Security Analyst.
 - Document a repeatable incident-response playbook.
 
 ---
