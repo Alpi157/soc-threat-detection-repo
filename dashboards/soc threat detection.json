@@ -1,0 +1,45 @@
+<dashboard version="1.1" theme="light">
+  <label>SOC Threat Detection</label>
+  <row>
+    <panel>
+      <title>Top attacked usernames</title>
+      <chart>
+        <search>
+          <query>index="main" EventCode=4625 | stats count by Account_Name | sort - count</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="charting.chart">bar</option>
+        <option name="charting.drilldown">none</option>
+      </chart>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Suspicious POST requests over time</title>
+      <chart>
+        <search>
+          <query>index="main" sourcetype="apache:access" "POST" | timechart span=1m count | where count &gt; 0</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="charting.chart">line</option>
+        <option name="charting.drilldown">none</option>
+      </chart>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <chart>
+        <search>
+          <query>index="main" sourcetype="apache:access" status=404 | timechart span=1m count</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="charting.chart">line</option>
+        <option name="charting.drilldown">none</option>
+      </chart>
+    </panel>
+  </row>
+</dashboard>

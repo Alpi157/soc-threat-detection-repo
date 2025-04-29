@@ -1,0 +1,12 @@
+Alert Name: Bruteforce Login Detection
+Search:
+index=main EventCode=4625
+| stats count by Account_Name, src_ip
+| where count > 10
+
+Trigger Condition:
+- When number of results > 0
+- Over 5 minutes window
+
+Action:
+- Create Alert in Splunk

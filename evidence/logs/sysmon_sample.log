@@ -1,0 +1,1423 @@
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64215
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:52.554
+ProcessGuid: {67d0488c-8564-680f-81cd-000000000700}
+ProcessId: 7076
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-y"
+CurrentDirectory: C:\
+User: VIRTUAL USERS\sshd_6520
+LogonGuid: {67d0488c-8564-680f-646c-970300000000}
+LogonId: 0x3976C64
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-8564-680f-79cd-000000000700}
+ParentProcessId: 6520
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64214
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:52.497
+ProcessGuid: {67d0488c-8564-680f-7fcd-000000000700}
+ProcessId: 4028
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+CurrentDirectory: C:\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {67d0488c-6eb2-680f-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ParentProcessId: 5960
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: C:\Windows\System32\OpenSSH\sshd.exe
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64213
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:50.215
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 35002
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64212
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:50.195
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 34986
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64211
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:50.105
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 34974
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64210
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:50.060
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 34964
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64209
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:52.437
+ProcessGuid: {67d0488c-8564-680f-7ecd-000000000700}
+ProcessId: 5316
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-y"
+CurrentDirectory: C:\
+User: VIRTUAL USERS\sshd_2528
+LogonGuid: {67d0488c-8564-680f-d15f-970300000000}
+LogonId: 0x3975FD1
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-8564-680f-76cd-000000000700}
+ParentProcessId: 2528
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64208
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:52.384
+ProcessGuid: {67d0488c-8564-680f-7ccd-000000000700}
+ProcessId: 6632
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+CurrentDirectory: C:\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {67d0488c-6eb2-680f-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ParentProcessId: 5960
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: C:\Windows\System32\OpenSSH\sshd.exe
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64207
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:52.344
+ProcessGuid: {67d0488c-8564-680f-7bcd-000000000700}
+ProcessId: 4736
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-y"
+CurrentDirectory: C:\
+User: VIRTUAL USERS\sshd_1424
+LogonGuid: {67d0488c-8564-680f-cf55-970300000000}
+LogonId: 0x39755CF
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-8564-680f-73cd-000000000700}
+ParentProcessId: 1424
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64206
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:52.283
+ProcessGuid: {67d0488c-8564-680f-79cd-000000000700}
+ProcessId: 6520
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+CurrentDirectory: C:\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {67d0488c-6eb2-680f-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ParentProcessId: 5960
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: C:\Windows\System32\OpenSSH\sshd.exe
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64205
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:52.202
+ProcessGuid: {67d0488c-8564-680f-78cd-000000000700}
+ProcessId: 1928
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-y"
+CurrentDirectory: C:\
+User: VIRTUAL USERS\sshd_356
+LogonGuid: {67d0488c-8564-680f-1148-970300000000}
+LogonId: 0x3974811
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-8563-680f-70cd-000000000700}
+ParentProcessId: 356
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64204
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:49.949
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 34954
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64203
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:49.815
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 34952
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64202
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:52.130
+ProcessGuid: {67d0488c-8564-680f-76cd-000000000700}
+ProcessId: 2528
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+CurrentDirectory: C:\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {67d0488c-6eb2-680f-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ParentProcessId: 5960
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: C:\Windows\System32\OpenSSH\sshd.exe
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64201
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:52.040
+ProcessGuid: {67d0488c-8564-680f-74cd-000000000700}
+ProcessId: 4476
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-y"
+CurrentDirectory: C:\
+User: VIRTUAL USERS\sshd_3968
+LogonGuid: {67d0488c-8564-680f-9d37-970300000000}
+LogonId: 0x397379D
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-8563-680f-6dcd-000000000700}
+ParentProcessId: 3968
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:52 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64200
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:52.010
+ProcessGuid: {67d0488c-8564-680f-73cd-000000000700}
+ProcessId: 1424
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+CurrentDirectory: C:\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {67d0488c-6eb2-680f-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ParentProcessId: 5960
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: C:\Windows\System32\OpenSSH\sshd.exe
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64199
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:49.647
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 34936
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64198
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:49.511
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 34924
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64197
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:49.491
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 34912
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64196
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:51.905
+ProcessGuid: {67d0488c-8563-680f-72cd-000000000700}
+ProcessId: 6340
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-y"
+CurrentDirectory: C:\
+User: VIRTUAL USERS\sshd_2220
+LogonGuid: {67d0488c-8563-680f-032d-970300000000}
+LogonId: 0x3972D03
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-8563-680f-6acd-000000000700}
+ParentProcessId: 2220
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64195
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:51.863
+ProcessGuid: {67d0488c-8563-680f-70cd-000000000700}
+ProcessId: 356
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+CurrentDirectory: C:\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {67d0488c-6eb2-680f-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ParentProcessId: 5960
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: C:\Windows\System32\OpenSSH\sshd.exe
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64194
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:51.776
+ProcessGuid: {67d0488c-8563-680f-6fcd-000000000700}
+ProcessId: 2164
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-y"
+CurrentDirectory: C:\
+User: VIRTUAL USERS\sshd_5040
+LogonGuid: {67d0488c-8563-680f-171f-970300000000}
+LogonId: 0x3971F17
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-8563-680f-67cd-000000000700}
+ParentProcessId: 5040
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64193
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:51.715
+ProcessGuid: {67d0488c-8563-680f-6dcd-000000000700}
+ProcessId: 3968
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+CurrentDirectory: C:\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {67d0488c-6eb2-680f-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ParentProcessId: 5960
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: C:\Windows\System32\OpenSSH\sshd.exe
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64192
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:51.638
+ProcessGuid: {67d0488c-8563-680f-6bcd-000000000700}
+ProcessId: 4288
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-y"
+CurrentDirectory: C:\
+User: VIRTUAL USERS\sshd_4484
+LogonGuid: {67d0488c-8563-680f-2311-970300000000}
+LogonId: 0x3971123
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-8563-680f-64cd-000000000700}
+ParentProcessId: 4484
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64191
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:49.384
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 34910
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64190
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:49.351
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 34900
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64189
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:51.618
+ProcessGuid: {67d0488c-8563-680f-6acd-000000000700}
+ProcessId: 2220
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+CurrentDirectory: C:\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {67d0488c-6eb2-680f-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ParentProcessId: 5960
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: C:\Windows\System32\OpenSSH\sshd.exe
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64188
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:51.506
+ProcessGuid: {67d0488c-8563-680f-69cd-000000000700}
+ProcessId: 6216
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-y"
+CurrentDirectory: C:\
+User: VIRTUAL USERS\sshd_6524
+LogonGuid: {67d0488c-8563-680f-8003-970300000000}
+LogonId: 0x3970380
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-8563-680f-61cd-000000000700}
+ParentProcessId: 6524
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64187
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:51.466
+ProcessGuid: {67d0488c-8563-680f-67cd-000000000700}
+ProcessId: 5040
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+CurrentDirectory: C:\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {67d0488c-6eb2-680f-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ParentProcessId: 5960
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: C:\Windows\System32\OpenSSH\sshd.exe
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64186
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:51.380
+ProcessGuid: {67d0488c-8563-680f-66cd-000000000700}
+ProcessId: 5164
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-y"
+CurrentDirectory: C:\
+User: VIRTUAL USERS\sshd_924
+LogonGuid: {67d0488c-8563-680f-b9f7-960300000000}
+LogonId: 0x396F7B9
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-8563-680f-5ecd-000000000700}
+ParentProcessId: 924
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64185
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:49.090
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 34886
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64184
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:51.349
+ProcessGuid: {67d0488c-8563-680f-64cd-000000000700}
+ProcessId: 4484
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+CurrentDirectory: C:\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {67d0488c-6eb2-680f-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ParentProcessId: 5960
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: C:\Windows\System32\OpenSSH\sshd.exe
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64183
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:51.237
+ProcessGuid: {67d0488c-8563-680f-62cd-000000000700}
+ProcessId: 1884
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-y"
+CurrentDirectory: C:\
+User: VIRTUAL USERS\sshd_6596
+LogonGuid: {67d0488c-8563-680f-2eea-960300000000}
+LogonId: 0x396EA2E
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-8562-680f-5bcd-000000000700}
+ParentProcessId: 6596
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64182
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:51.220
+ProcessGuid: {67d0488c-8563-680f-61cd-000000000700}
+ProcessId: 6524
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+CurrentDirectory: C:\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {67d0488c-6eb2-680f-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ParentProcessId: 5960
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: C:\Windows\System32\OpenSSH\sshd.exe
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64181
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:51.124
+ProcessGuid: {67d0488c-8563-680f-60cd-000000000700}
+ProcessId: 6436
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-y"
+CurrentDirectory: C:\
+User: VIRTUAL USERS\sshd_6100
+LogonGuid: {67d0488c-8563-680f-eadd-960300000000}
+LogonId: 0x396DDEA
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-8562-680f-58cd-000000000700}
+ParentProcessId: 6100
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64180
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:48.900
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 34870
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64179
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:48.900
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 34864
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64178
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: SSH
+UtcTime: 2025-04-28 13:40:48.671
+ProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ProcessId: 5960
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: false
+SourceIsIpv6: false
+SourceIp: 192.168.56.103
+SourceHostname: -
+SourcePort: 34848
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.106
+DestinationHostname: DESKTOP-ABRNITG
+DestinationPort: 22
+DestinationPortName: ssh
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64177
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2025-04-28 13:40:51.058
+ProcessGuid: {67d0488c-8563-680f-5ecd-000000000700}
+ProcessId: 924
+Image: C:\Windows\System32\OpenSSH\sshd.exe
+FileVersion: 7.7.2.3
+Description: -
+Product: OpenSSH for Windows
+Company: -
+OriginalFileName: -
+CommandLine: "C:\Windows\System32\OpenSSH\sshd.exe" "-R"
+CurrentDirectory: C:\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {67d0488c-6eb2-680f-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=BCFDD6927990AE7156026EDC32393740,SHA256=7D4F44FC14E9096032A4966FBE804E8827F7DDF8BB72687E0763D16D01FE949D,IMPHASH=E6B3B7A27E62B10DFD65C0DB931FE660
+ParentProcessGuid: {67d0488c-701d-680f-ff00-000000000700}
+ParentProcessId: 5960
+ParentImage: C:\Windows\System32\OpenSSH\sshd.exe
+ParentCommandLine: C:\Windows\System32\OpenSSH\sshd.exe
+ParentUser: NT AUTHORITY\SYSTEM
+04/28/2025 06:40:51 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ABRNITG
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=64176
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -

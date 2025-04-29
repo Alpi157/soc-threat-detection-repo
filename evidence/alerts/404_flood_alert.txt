@@ -1,0 +1,12 @@
+Alert Name: 404 Flood Detection
+Search:
+index=main sourcetype="apache:access" status=404
+| timechart span=1m count
+| where count > 50
+
+Trigger Condition:
+- When number of results > 0
+- Over 5 minutes window
+
+Action:
+- Create Alert in Splunk
