@@ -1,6 +1,6 @@
 # SOC Threat Detection & Investigation Using Splunk
 
-**Author**: Arman  
+**Author**: Alpar Arman  
 **Date**: April 2025  
 **Target Role**: Cyber Security Analyst 
 
@@ -157,8 +157,8 @@ dashboards/      # JSON exports of all Splunk panels
 spl/             # All SPL queries (detections, alerts)
 evidence/        # Screenshots of alerts and dashboards
 IR_Playbook.md   # Detailed incident-response steps
-SOC_Threat_Detection_Report.md # Formal PDF/Markdown report
-scripts/         # Hydra, Gobuster, curl helper commands
+README.md        # This file
+SOC_Threat_Detection_Report.md # Formal report
 ```
 
 ---
