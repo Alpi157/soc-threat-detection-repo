@@ -5,7 +5,7 @@
 
 ## 1. Introduction
 
-Modern Security Operations Centers (SOCs) must ingest heterogeneous log sources, detect multi-stage attacks, and document response actions quickly.  
+Modern Security Operations Centers must ingest heterogeneous log sources, detect multi-stage attacks, and document response actions quickly.  
 This project demonstrates an end-to-end pipeline — collection → detection → response → reporting — using only open-source tooling and Splunk Enterprise (free license).
 
 ### Goals:
