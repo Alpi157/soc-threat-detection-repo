@@ -19,13 +19,9 @@
 
 | Phase | Action |
 |------|--------|
-| **Identification** | Alert **Bruteforce Detected** triggers when this SPL returns ≥1 row:<br>```spl
-index="main" EventCode=4625 earliest=-5m@m latest=now
-``` |
+| **Identification** | Alert **Bruteforce Detected** triggers when this SPL returns ≥1 row:<br> ```spl index="main" EventCode=4625 earliest=-5m@m latest=now ``` |
 | **Validation** | • Pivot on Account_Name, host, Source_Network_Address to confirm single noisy IP.<br>• Correlate with normal baseline (expect <5 failed logons/5 min). |
-| **Containment** | 1. On Windows:<br>```powershell
-New-NetFirewallRule -DisplayName "BlockBruteforce" -Direction Inbound -RemoteAddress <attackerIP> -Action Block -Protocol TCP
-```<br>2. Force password reset or disable targeted local account. |
+| **Containment** | 1. On Windows:<br>```powershell New-NetFirewallRule -DisplayName "BlockBruteforce" -Direction Inbound -RemoteAddress <attackerIP> -Action Block Protocol TCP ```<br>2. Force password reset or disable targeted local account. |
 | **Eradication** | • Inspect `C:\Users\<user>\AppData\Local\Temp` for malicious tools.<br>• Check Sysmon EventCode=1 for suspicious process launches from attacker IP. |
 | **Recovery** | • Re-enable account with new strong password.<br>• Remove temporary firewall rule after ≥24h monitoring shows normal traffic. |
 | **Evidence to preserve** | Screenshot of alert, SPL output, firewall rule command, zipped splunkd.log slice containing the incident. |
@@ -36,20 +32,13 @@ New-NetFirewallRule -DisplayName "BlockBruteforce" -Direction Inbound -RemoteAdd
 
 | Phase | Action |
 |------|--------|
-| **Identification** | Dashboard panel **404 Errors Over Time**:<br>```spl
-index="main" sourcetype="apache:access" status=404
-``` |
-| **Validation** | • Verify single source IP (<attackerIP>) using:<br>```spl
-index="main" sourcetype="apache:access" status=404
-``` |
-| **Containment** | • Add IP to Apache block list:<br>```bash
-sudo iptables -A INPUT -s <attackerIP> -j DROP
-``` |
+| **Identification** | Dashboard panel **404 Errors Over Time**:<br>```spl index="main" sourcetype="apache:access" status=404 ``` |
+| **Validation** | • Verify single source IP (<attackerIP>) using:<br>```spl index="main" sourcetype="apache:access" status=404``` |
+| **Containment** | • Add IP to Apache block list:<br>```bash sudo iptables -A INPUT -s <attackerIP> -j DROP``` |
 | **Eradication** | • Review `/var/log/apache2/access.log` for successful hits on sensitive paths.<br>• Patch or remove any discovered insecure directories. |
 | **Recovery** | • Flush iptables rule after penetration test proves directory listing secured.<br>• Deploy `mod_security` or `fail2ban` for longer-term protection. |
 | **Evidence** | Export panel PNG + raw access-log snippet (showing 404 lines). |
 
----
 ---
 
 ### 2.3 HTTP POST Burst / Data-Exfil Attempt
@@ -57,11 +46,9 @@ sudo iptables -A INPUT -s <attackerIP> -j DROP
 | Phase          | Action |
 |----------------|--------|
 | **Identification** | Dashboard panel **Suspicious POST Requests** (SPL):<br>```spl
-index="main" sourcetype="apache:access" "POST"
-``` |
+index="main" sourcetype="apache:access" "POST" ``` |
 | **Validation** | • Confirm request bodies are large/repetitive with:<br>```spl
-index="main" sourcetype="apache:access" "POST"
-``` |
+index="main" sourcetype="apache:access" "POST" ``` |
 | **Containment** | • Block offending IP via iptables.<br>• If internal host, disable NIC or isolate VLAN. |
 | **Eradication** | • Rotate credentials exposed in POST body (if any).<br>• Apply rate-limit rule in Apache (`mod_evasive`). |
 | **Recovery** | • Re-enable IP after monitoring ≤10 POST/min for 1 hour.<br>• Keep rate-limiting permanently. |
